@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password:
+#   password: OaT7BjELLTQ8
+    url: jdbc:mysql://127.0.0.1:3306/game_stagecenter?useSSL=false&characterEncoding=UTF8&serverTimezone=GMT%2B8
+
+#内网
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+    password:
